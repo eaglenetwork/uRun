@@ -16,5 +16,6 @@ document.addEventListener("keydown", function (e) {
 			}}
 	if (e.key == "\\" && e.ctrlKey) {
 		popupEnabled = false
+		alert("Popup disabled: manual mode triggered.")
 	}
 });
