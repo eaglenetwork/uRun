@@ -1,7 +1,7 @@
 /// urun.js
 var popupEnabled = true
 document.addEventListener("keydown", function (e) {
-	if (e.key == "~" && e.ctrlKey) {
+	if (e.key == "~" && e.ctrlKey && e.shiftKey) {
 		if (popupEnabled) {
 			var t = window.open("", "_blank", "width=500,height=300");
 			var e = t.document.createElement("iframe");
@@ -17,7 +17,7 @@ document.addEventListener("keydown", function (e) {
 			eval(window.prompt("Code to run:"))
 		}
 	}
-	if (e.key == "\\") {
+	if (e.key == "\\" && e.ctrlKey && e.shiftKey) {
 		if (popupEnabled) {
 		popupEnabled = false
 		alert("Popup disabled: manual mode triggered.")
