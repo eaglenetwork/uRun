@@ -14,7 +14,7 @@ document.addEventListener("keydown", function (e) {
 			});} else {
 			eval(window.prompt("Code to run:"))
 			}}
-	if (e.key == "\" && e.ctrlKey) {
+	if (e.key == "\\" && e.ctrlKey) {
 		popupEnabled = false
 	}
 });
