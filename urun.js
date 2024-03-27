@@ -21,5 +21,8 @@ document.addEventListener("keydown", function (e) {
 		if (popupEnabled) {
 		popupEnabled = false
 		alert("Popup disabled: manual mode triggered.")
+	} else {
+			popupEnabled = true
+			alert("Popup enabled: industrial mode triggered.")
 	}}
 });
