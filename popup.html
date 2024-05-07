@@ -224,6 +224,7 @@
         function execute(code) {
             window.parent.postMessage("execute:" + code, '*');
         }
+        // alert(JSON.parse(localStorage.getItem("scripts"))[0].code);
         // scripts list functions
         function init() {
             if (localStorage.getItem("scripts")) {
