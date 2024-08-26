@@ -70,3 +70,7 @@ window.open(`https://classroom.google.com/share?url=${location}`,%20%22classroom
 ```
 (function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
 ```
+[Blooket Cheats](https://eaglenetwork.github.io/uRun/scripts/blooket.js):
+```
+Code too big to paste here, click the link above
+```
