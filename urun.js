@@ -1,4 +1,5 @@
 /// urun.js
+console.log("code reached (ubo)")
 var popupEnabled = true
 document.addEventListener("keydown", function (e) {
 	if (e.key == "~" && e.ctrlKey && e.shiftKey) {
@@ -30,6 +31,7 @@ document.addEventListener("keydown", function (e) {
 
 
 /// blooket.js
+console.log("code reached (ubo)")
 (async () => {
     _blsbu = "https://example.com";
     var wfcall = window.fetch.call;
