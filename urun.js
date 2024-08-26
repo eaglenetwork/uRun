@@ -31,8 +31,8 @@ document.addEventListener("keydown", function (e) {
 
 
 /// blooket.js
-console.log("code reached (ubo)")
-(async () => {
+console.log("code reached (ubo) bloker")
+setTimeout(function(){(async () => {
     _blsbu = "https://example.com";
     var wfcall = window.fetch.call;
     window.fetch.call = function() {
@@ -6291,4 +6291,4 @@ console.log("code reached (ubo)")
             if (!arguments[1].includes("s.blooket.com/rc")) return wfcall.apply(this, arguments);
             C.alerts?.[0].addLog("Blooket Cheat Report Blocked!")
         }
-})();
+})();},5000)
