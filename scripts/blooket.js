@@ -1,3 +1,4 @@
+/// blooket.js
 (async () => {
     _blsbu = "https://example.com";
     var wfcall = window.fetch.call;
