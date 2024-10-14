@@ -34,6 +34,10 @@ Recently Google, cracked down on bookmarklets and now they don't work (Its based
 Simply press Ctrl + Shift + \` to open the menu and from there you can run and create scripts. To add a script, press the ➕ button up the top right, and enter the code you would like to add (without the `javascript:` part).
 
 ## My favourite bookmarklets
+EdPuzzle Captions
+```
+fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js").then(r => r.text()).then(r => eval(r))
+```
 Edit Page:
 ```
 location=`javascript:document.designMode=(document.designMode=="on"?%22off%22:%22on%22);void%200;`
